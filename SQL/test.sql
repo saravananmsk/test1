@@ -8,6 +8,7 @@ for i in a..20
 loop
 b:= a+i;
 insert into test_123 values (b);
+insert into test_123 values (b);
 commit;
 end loop;
 end;
