@@ -1,3 +1,4 @@
+#to loop statement
 create or replace procedure p_loop as
 a number;
 b number;
