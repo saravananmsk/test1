@@ -10,6 +10,7 @@ b:= a+i;
 insert into test_123 values (b);
 insert into test_123 values (b);
 insert into test_123 values (b);
+insert into test_123 values (a);
 commit;
 end loop;
 end;
